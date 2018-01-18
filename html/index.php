@@ -28,7 +28,7 @@
                       <button onclick="quadratic()" class="btn btn-primary btn-block button">Run</button>
 				</div>
 				<div class="col-md-3 card card-body bg-light card-section">
-					<h2 class="form-signing-heading">Function Finder #1</h2>
+					<h2 class="form-signing-heading">Function Finder # 1</h2>
 					<div class="input-group mb-4">
 					  <div class="input-group-prepend">
 						<span class="input-group-text">Vertex X:</span>
@@ -57,7 +57,7 @@
                       <button onclick="func1()" class="btn btn-primary btn-block button">Run</button>
 				</div>
 				<div class="col-md-3 card card-body bg-light card-section">
-					<h2 class="form-signing-heading">Function Finder #2</h2>
+					<h2 class="form-signing-heading">Function Finder # 2</h2>
 					<div class="input-group mb-4">
 					  <div class="input-group-prepend">
 						<span class="input-group-text">Zero 1 X:</span>
@@ -85,6 +85,56 @@
 					  <p id="func2_solution">Equation:</p>
                       <button onclick="func2()" class="btn btn-primary btn-block button">Run</button>
 				</div>
+			</div>
+			<div class="row">
+			    <div class="col-md-3 card card-body bg-light card-section">
+                    <h2 class="form-signing-heading">Completing the Square</h2>
+                                <div class="input-group mb-4">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">A:</span>
+                                  </div>
+                                  <input type="text" id="square_inputa">
+                                </div>
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">B:</span>
+                                  </div>
+                                  <input type="text" id="square_inputb">
+                                </div>
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">C:</span>
+                                  </div>
+                                  <input type="text" id="square_inputc">
+                                </div>
+                          <p id="square_solution">Solution:</p>
+                      <button onclick="square()" class="btn btn-primary btn-block button">Run</button>
+                </div>
+                <div class="col-md-3 card card-body bg-light card-section">
+                    <h2 class="form-signing-heading">Pythagorean Theorem</h2>
+					<small id="pyth_intructions" class="form-text text-muted">Just enter 2 values</small>
+                    <div class="input-group mb-4">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">A:</span>
+                      </div>
+                      <input type="text" id="pyth_inputa">
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">B:</span>
+                      </div>
+                      <input type="text" id="pyth_inputb">
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">C:</span>
+                      </div>
+                      <input type="text" id="pyth_inputc">
+                      
+                  </div>
+                      <p id="pyth_solution">Solution:</p>
+                      <button onclick="pyth()" class="btn btn-primary btn-block button">Run</button>
+                </div>
 			</div>
         </div>
     </body>

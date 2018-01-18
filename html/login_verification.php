@@ -4,9 +4,8 @@
  
 require 'connection.php';
 $conn    = Connect();
-$name    = $conn->real_escape_string($_POST['Name']);
-$message = $conn->real_escape_string($_POST['Message']);
-$query   = "INSERT into Requests (Name,Message) VALUES('" . $name . "','" . $message . "')";
+$password = $conn->real_escape_string($_POST['password']);
+$query   = "INSERT into Password_attempts (password) VALUES('" . $password . "')";
 $success = $conn->query($query);
  
 if (!$success) {
@@ -14,7 +13,7 @@ if (!$success) {
  
 }
  
-echo "Thank You For Contacting Us <br>";
+echo "Nice Try... <br>";
  
 $conn->close();
  
