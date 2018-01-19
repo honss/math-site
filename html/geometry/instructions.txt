@@ -1,0 +1,14 @@
+
+######################################################################################################
+Writing this out nice and formatted is REALLY boring and time consuming, so I'm just going to type it up
+######################################################################################################
+
+Circle Area: just enter the radius
+pi*r^2
+Sphere Area: the same
+4/3*pi*r^3
+Triangle Area: base is really any side, and the height is a line at a right angle to the base that intersects the opposite angle.
+1/2*base*height
+
+Pythagorean Theorem (ONLY FOR RIGHT-ANGLED TRIANGLES): a and b are the smaller sides of a right-angle triangle, and c is the long side (hypotenuse).
+a^2 + b^2 = c^2

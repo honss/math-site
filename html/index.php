@@ -1,7 +1,7 @@
 <?php include "starter.html"; ?>
 <?php include "navbar.html"; ?>
 	    <div class="container">
-			<h1 class="jumbotron">Aidan's Math Calculator Stuff</h1>
+			<h1 class="jumbotron">Aidan's Math Calculator Stuff - <a href="instructions.txt">Instructions</a></h1>
 			<div class="row">
 				<div class="col-md-3 card card-body bg-light card-section">
 					<h2 class="form-signing-heading">Quadratic Formula</h2>
@@ -86,7 +86,7 @@
                       <button onclick="func2()" class="btn btn-primary btn-block button">Run</button>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row second-row">
 			    <div class="col-md-3 card card-body bg-light card-section">
                     <h2 class="form-signing-heading">Completing the Square</h2>
                                 <div class="input-group mb-4">
@@ -109,31 +109,6 @@
                                 </div>
                           <p id="square_solution">Solution:</p>
                       <button onclick="square()" class="btn btn-primary btn-block button">Run</button>
-                </div>
-                <div class="col-md-3 card card-body bg-light card-section">
-                    <h2 class="form-signing-heading">Pythagorean Theorem</h2>
-					<small id="pyth_intructions" class="form-text text-muted">Just enter 2 values</small>
-                    <div class="input-group mb-4">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text">A:</span>
-                      </div>
-                      <input type="text" id="pyth_inputa">
-                    </div>
-                    <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text">B:</span>
-                      </div>
-                      <input type="text" id="pyth_inputb">
-                    </div>
-                    <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text">C:</span>
-                      </div>
-                      <input type="text" id="pyth_inputc">
-                      
-                  </div>
-                      <p id="pyth_solution">Solution:</p>
-                      <button onclick="pyth()" class="btn btn-primary btn-block button">Run</button>
                 </div>
 			</div>
         </div>

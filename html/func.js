@@ -2,6 +2,9 @@ function quadratic() {
                 var a = document.getElementById("quad_inputa").value;
                 var b = document.getElementById("quad_inputb").value;
                 var c = document.getElementById("quad_inputc").value;
+                if(a==6 && b==9 && c==";)") {
+                    alert("Nuthing but Net");
+                }
                 var topleft=-b
                 var topright=Math.sqrt(Math.pow(b,2)-(4*a*c));
                 var bottom=2*a;
@@ -48,26 +51,4 @@ function square() {
 	var temp = Math.pow(b,2)/(4*a)
 	var e = c-temp
     document.getElementById("square_solution").innerHTML = "Solution: "+a+"(x + "+d+")^2 + "+e;
-    }
-function pyth() {
-        var a = parseFloat(document.getElementById("pyth_inputa").value);
-        var b = parseFloat(document.getElementById("pyth_inputb").value);
-        var c = parseFloat(document.getElementById("pyth_inputc").value);
-        if(isNaN(a)) {
-            var first = -1*Math.pow(b,2);
-            var second = Math.pow(c,2);
-            var pyth_solutiona = Math.sqrt(first+second);
-            document.getElementById("pyth_solution").innerHTML = "Solution: "+pyth_solutiona;
-        }
-        if(isNaN(b)) {
-            var first = -1*Math.pow(a,2);
-            var second = Math.pow(c,2);
-            var pyth_solutionb = Math.sqrt(first+second);
-            document.getElementById("pyth_solution").innerHTML = "Solution: "+pyth_solutionb;
-        }
-        if(isNaN(c)) {
-            var pyth_solutionc = Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
-            document.getElementById("pyth_solution").innerHTML = "Solution: "+pyth_solutionc;
-        }
-
     }
