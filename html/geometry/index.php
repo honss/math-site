@@ -2,7 +2,7 @@
 <script src="geometry.js"></script>
 <?php include "../navbar.html"; ?>
 	    <div class="container">
-			<h1 class="jumbotron">Aidan's Geometry Stuff - <a href="instructions.txt">Instructions</a></h1>
+			<h1 class="jumbotron banner-jumbo">Aidan's Geometry Stuff - <a href="instructions.txt">Instructions</a></h1>
 			<div class="row">
 				<div class="col-md-3 card card-body bg-light card-section">
 					<h2 class="form-signing-heading">Circle Area</h2>
