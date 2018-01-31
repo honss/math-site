@@ -33,4 +33,12 @@ h1.banner-jumbo {
 	background: linear-gradient(to bottom, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
 	}
-
+div.index-header {
+	padding-top: 0px;
+	margin-bottom: 25px;
+	background-color: lightgray;
+}
+hr.card-splitter {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}

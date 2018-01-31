@@ -6,6 +6,9 @@ Writing this out nice and formatted is REALLY boring and time consuming, so I'm 
 Quadratic Formula: ax+bx+c is standard form for quadratics, just plug in a, b, and c.
 x = -b+-sqrt(b^2-4ac)/2a
 
-Completing the Square: Same as quadratic formula, but it outsputs in vertex form.
+Completing the Square: Same as quadratic formula, but it outputs in vertex form.
 
 Function Finder: Give a point and the vertex, or the zeros and a point to get the equation.
+Function Combiner: Input the a, b, and c of two seperate functions to get the points where they intersect.
+
+Y-Solver: Not very useful but it outputs the y value if you give the equation and the x. Really is only a basis for the function cobiner.

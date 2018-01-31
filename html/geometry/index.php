@@ -16,7 +16,7 @@
                       <button onclick="circ_area()" class="btn btn-primary btn-block button">Run</button>
 				</div>				
 				<div class="col-md-3 card card-body bg-light card-section">
-					<h2 class="form-signing-heading">Sphere Area</h2>
+					<h2 class="form-signing-heading">Sphere Volume</h2>
 					<div class="input-group mb-4">
 					  <div class="input-group-prepend">
 						<span class="input-group-text">r:</span>

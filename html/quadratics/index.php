@@ -110,37 +110,79 @@
                           <p id="square_solution">Solution:</p>
                       <button onclick="square()" class="btn btn-primary btn-block button">Run</button>
                 </div>
-		<div class="col-md-4 card card-body bg-light card-section">
-			<h2 class="form-signing-heading">Y-Solver</h2>
-				<div class="input-group mb-4">
-					<div class="input-group-prepend">
-						<span class="input-group-text">A:</span>
-					</div>
-					<input type="text" id="ysolve_inputa">
+				<div class="col-md-4 card card-body bg-light card-section">
+					<h2 class="form-signing-heading">Y-Solver</h2>
+						<div class="input-group mb-4">
+							<div class="input-group-prepend">
+								<span class="input-group-text">A:</span>
+							</div>
+							<input type="text" id="ysolve_inputa">
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">B:</span>
+							</div>
+							<input type="text" id="ysolve_inputb">
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">C:</span>
+							</div>
+							<input type="text" id="ysolve_inputc">
+						</div>				
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">X:</span>
+							</div>
+							<input type="text" id="ysolve_inputx">
+						</div>
+						<small id="" class="form-text text-muted">Outputs Y for an X</small>
+						<p id="ysolve_solution">Solution:</p>
+									<button onclick="ysolve()" class="btn btn-primary btn-block button">Run</button>
 				</div>
-				<div class="input-group mb-3">
-					<div class="input-group-prepend">
-						<span class="input-group-text">B:</span>
+				<div class="col-md-3 card card-body bg-light card-section">
+					<h2 class="form-signing-heading">Function Combiner</h2>
+					<div class="input-group mb-4">
+					  <div class="input-group-prepend">
+						<span class="input-group-text">A #1:</span>
+					  </div>
+					  <input type="text" id="comb_inputa1">
 					</div>
-					<input type="text" id="ysolve_inputb">
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+						<span class="input-group-text">B #1:</span>
+					  </div>
+					  <input type="text" id="comb_inputb1">
+					</div>
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+						<span class="input-group-text">C #1:</span>
+					  </div>
+					  <input type="text" id="comb_inputc1">
+					</div>	
+					<hr class="card-splitter">
+					<div class="input-group mb-4">
+					  <div class="input-group-prepend">
+						<span class="input-group-text">A #2:</span>
+					  </div>
+					  <input type="text" id="comb_inputa2">
+					</div>
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+						<span class="input-group-text">B #2:</span>
+					  </div>
+					  <input type="text" id="comb_inputb2">
+					</div>
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+						<span class="input-group-text">C #2:</span>
+					  </div>
+					  <input type="text" id="comb_inputc2">
+					</div>
+					<p id="comb_solution">Solution:</p>
+                    <button onclick="func_combiner()" class="btn btn-primary btn-block button">Run</button>
 				</div>
-				<div class="input-group mb-3">
-					<div class="input-group-prepend">
-						<span class="input-group-text">C:</span>
-					</div>
-					<input type="text" id="ysolve_inputc">
-                </div>				
-				<div class="input-group mb-3">
-					<div class="input-group-prepend">
-						<span class="input-group-text">X:</span>
-					</div>
-					<input type="text" id="ysolve_inputx">
-                </div>
-				<small id="" class="form-text text-muted">Outputs Y for an X</small>
-				<p id="ysolve_solution">Solution:</p>
-                      		<button onclick="ysolve()" class="btn btn-primary btn-block button">Run</button>
 			</div>
-		</div>
         </div>
     </body>
 </html>
