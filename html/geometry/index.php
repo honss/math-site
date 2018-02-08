@@ -70,31 +70,47 @@
                           <p id="tri_area">Area:</p>
                       <button onclick="tri_area()" class="btn btn-primary btn-block button">Run</button>
                 </div>
-				<div class="col-md-3 card card-body bg-light card-section">
-                    <h2 class="form-signing-heading">Placeholder</h2>
+		<div class="col-md-3 card card-body bg-light card-section">
+                    <h2 class="form-signing-heading">Pythagorean Theorem Converse</h2>
                                 <div class="input-group mb-4">
                                   <div class="input-group-prepend">
                                     <span class="input-group-text">A:</span>
                                   </div>
-                                  <input type="text" id="square_inputa">
+                                  <input type="text" id="conv_inputa">
                                 </div>
                                 <div class="input-group mb-3">
                                   <div class="input-group-prepend">
                                     <span class="input-group-text">B:</span>
                                   </div>
-                                  <input type="text" id="square_inputb">
+                                  <input type="text" id="conv_inputb">
                                 </div>
                                 <div class="input-group mb-3">
                                   <div class="input-group-prepend">
                                     <span class="input-group-text">C:</span>
                                   </div>
-                                  <input type="text" id="square_inputc">
+                                  <input type="text" id="conv_inputc">
                                 </div>
-                          <p id="square_solution">Solution:</p>
-                      <button onclick="square()" class="btn btn-primary btn-block button">Run</button>
+                          <p id="conv_solution">Solution:</p>
+                      <button onclick="converse()" class="btn btn-primary btn-block button">Run</button>
+              </div>
+              <div class="col-md-3 card card-body bg-light card-section">
+                    <h2 class="form-signing-heading">Cone Volume</h2>
+                                <div class="input-group mb-4">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Radius:</span>
+                                  </div>
+                                  <input type="text" id="cone_inputr">
+                                </div>
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Height:</span>
+                                  </div>
+                                  <input type="text" id="cone_inputh">
+                                </div>
+                                 <p id="cone_solution">Volume:</p>
+                      <button onclick="cone_area()" class="btn btn-primary btn-block button">Run</button>
                 </div>
-                
-			</div>
+	    </div>
         </div>
     </body>
 </html>
