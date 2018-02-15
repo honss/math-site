@@ -1,6 +1,6 @@
 <?php include "starter.html"; ?>
 <?php include "navbar.html"; ?>
-	    <div class="container">
+		<div class="container">
 			<h1 class="jumbotron banner-jumbo">Aidan's Math Index Stuff</h1>
 			<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center index-header">
 				<h1 class="display-4">Index</h1>
@@ -18,11 +18,18 @@
                       <a href="geometry"><button class="btn btn-primary btn-block button">Open</button></a>
                 </div>
                 <div class="col-md-3 card card-body bg-light card-section">
-                    <h2 class="form-signing-heading">Placeholder</h2>
-                      <p id="">Do you expect me to come up with a witty rhyme on a placeholder?</p>
-                      <a href="quadracts"><button class="btn btn-primary btn-block button">Open</button></a>
+                    <h2 class="form-signing-heading">Areas/Volumes</h2>
+                      <p id="">Somebody remind me to put something here later</p>
+                      <a href="areas"><button class="btn btn-primary btn-block button">Open</button></a>
                 </div>
-            </div>
-         </div>
-    </body>
+			</div>
+			<div class="row second-row">
+				<div class="col-md-3 card card-body bg-light card-section">
+            		<h2 class="form-signing-heading">Placeholder</h2>
+                	<p id="">Do you expect me to come up with a witty rhyme on a placeholder?</p>
+                    <a href="quadracts"><button class="btn btn-primary btn-block button">Open</button></a>
+            	</div>
+			</div>
+        </div>
+	</body>
 </html>

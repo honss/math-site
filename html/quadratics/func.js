@@ -1,3 +1,6 @@
+function increment($type) {
+        $.post("../statistics/inputhandler.php", {type: $type});
+}
 function quadratic() {
                 var a = document.getElementById("quad_inputa").value;
                 var b = document.getElementById("quad_inputb").value;
@@ -26,7 +29,8 @@ function quadratic() {
 				else {
 					document.getElementById("quad_solution").innerHTML = "Solution: "+x
 				}
-    }
+	increment('quadratic_formula');   
+}
 function func1() {
 	var x1 = document.getElementById("func1_input1x").value;
 	var y1 = document.getElementById("func1_input1y").value;
@@ -37,6 +41,7 @@ function func1() {
 	var inside = Math.pow(step1, 2);
 	var a = right/inside;
 	document.getElementById("func1_solution").innerHTML = "Equation: f(x) = "+a+"(x - "+x1+")^2 + "+y1;
+	increment('function_finder_1');
 }
 function func2() {
 	var x1 = document.getElementById("func2_inputx1").value;
@@ -47,6 +52,7 @@ function func2() {
 	var right = px - x2;
 	var a = py/(left*right)
 	document.getElementById("func2_solution").innerHTML = "Equation: f(x) = "+a+"(x - "+x1+")(x - "+x2+")";
+	increment('function_finder_2');
 }
 function square() {
     var a = document.getElementById("square_inputa").value;
@@ -56,7 +62,8 @@ function square() {
 	var temp = Math.pow(b,2)/(4*a)
 	var e = c-temp
     document.getElementById("square_solution").innerHTML = "Solution: "+a+"(x + "+d+")^2 + "+e;
-    }
+    increment('completing_the_square');
+}
 
 
 function ysolve() {
@@ -68,28 +75,30 @@ function ysolve() {
     var mid = x*b;
 	var solution = lef+mid+parseFloat(c);
     document.getElementById("ysolve_solution").innerHTML = "Solution: ("+x+", " + solution + ")";
-    }
+    increment('y_solver');    
+}
 function func_combiner() { 
-	var a1 = document.getElementById("comb_inputa1").value;
+    var a1 = document.getElementById("comb_inputa1").value;
     var b1 = document.getElementById("comb_inputb1").value;
     var c1 = document.getElementById("comb_inputc1").value;	
-	var a2 = document.getElementById("comb_inputa2").value;
+    var a2 = document.getElementById("comb_inputa2").value;
     var b2 = document.getElementById("comb_inputb2").value;
     var c2 = document.getElementById("comb_inputc2").value;
-	var newa = a1-a2
-	var newb = b1-b2
-	var newc = c1-c2
+    var newa = a1-a2
+    var newb = b1-b2
+    var newc = c1-c2
     var topleft=-newb
     var topright=Math.sqrt(Math.pow(newb,2)-(4*newa*newc));
     var bottom=2*newa;
-	var x = [(topleft-topright)/bottom];
-	x.push((topleft+topright)/bottom);
-	y = [];
-	for(i = 0; i < x.length; i++) {
-	    var lef = Math.pow(x[i],2)*a1;
-		var mid = x[i]*b1;
-		var y_temp = lef+mid+parseFloat(c1);	
-		y.push(y_temp);
-		}
-	document.getElementById("comb_solution").innerHTML = "Solution: ("+x[0]+", "+y[0]+"), ("+x[1]+", "+y[1]+")"
-	}
+    var x = [(topleft-topright)/bottom];
+    x.push((topleft+topright)/bottom);
+    y = [];
+    for(i = 0; i < x.length; i++) {
+        var lef = Math.pow(x[i],2)*a1;
+        var mid = x[i]*b1;
+        var y_temp = lef+mid+parseFloat(c1);	
+        y.push(y_temp);
+    }
+    document.getElementById("comb_solution").innerHTML = "Solution: ("+x[0]+", "+y[0]+"), ("+x[1]+", "+y[1]+")"
+    increment('function_combiner');
+}
