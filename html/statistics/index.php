@@ -11,7 +11,7 @@
 			while($row = $result->fetch_assoc()) {
 				$total = $total+$row["count"];
 				echo "<b>Type</b>: " . $row["type"]. "------- <b>Count</b>: " . $row["count"]. "<br>";
-    		}
+    			}
 			echo "<br><br><b>Total</b>: ------- <b>Count</b>: " . $total . "<br>";
 			?>
 		</div>			

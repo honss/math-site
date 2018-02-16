@@ -1,4 +1,6 @@
 <?php include "starter.html"; ?>
+<meta name="description" content="Aidan's math calculator stuff, now with extra cheese.">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <?php include "navbar.html"; ?>
 		<div class="container">
 			<h1 class="jumbotron banner-jumbo">Aidan's Math Index Stuff</h1>

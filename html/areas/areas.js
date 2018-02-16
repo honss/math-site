@@ -32,4 +32,11 @@ function tri_area() {
 	document.getElementById("tri_area").innerHTML = "Area: "+0.5*b*h;
 	increment('triangle_area');
 }
+function sqr_pyr_volume() {
+	var s1 = document.getElementById("sqr_pyr_inputs1").value;
+	var s2 = document.getElementById("sqr_pyr_inputs2").value;
+	var h  = document.getElementById("sqr_pyr_inputh").value;
+	document.getElementById("sqr_pyr_volume").innerHTML = "Volume: "+s1*s2*(h/3);
+	increment('square_pyramid_volume');
+}
 

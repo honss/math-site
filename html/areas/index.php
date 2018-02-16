@@ -1,5 +1,7 @@
 <?php include "starter.html"; ?>
 <script src="areas.js"></script>
+<meta name="description" content="Aidan's math calculator stuff, now with extra cheese.">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <?php include "../navbar.html"; ?>
 	    <div class="container">
 			<h1 class="jumbotron banner-jumbo">Aidan's Boring Area/Volume Stuff</h1>
@@ -80,6 +82,29 @@
                                 </div>
                                 <p id="cyl_solution">Volume:</p>
                       			<button onclick="cyl_volume()" class="btn btn-primary btn-block button">Run</button>
+			   </div>
+			   <div class="col-md-3 card card-body bg-light card-section">
+                    			<h2 class="form-signing-heading">Square Pyramid Volume</h2>
+                                <div class="input-group mb-4">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Side #1:</span>
+                                  </div>
+                                  <input type="text" id="sqr_pyr_inputs1">
+                                </div>
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Side #2:</span>
+                                  </div>
+                                  <input type="text" id="sqr_pyr_inputs2">
+								</div>
+								<div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Height:</span>
+                                  </div>
+                                  <input type="text" id="sqr_pyr_inputh">
+                                </div>
+                                <p id="sqr_pyr_volume">Volume:</p>
+                      			<button onclick="sqr_pyr_volume()" class="btn btn-primary btn-block button">Run</button>
         	  </div>
 	    </div>
       </div>
