@@ -27,9 +27,15 @@
 			</div>
 			<div class="row second-row">
 				<div class="col-md-3 card card-body bg-light card-section">
+            		<h2 class="form-signing-heading">Transformations</h2>
+                	<p id="">I'm getting bored of this</p>
+                    <a href="transformations"><button class="btn btn-primary btn-block button">Open</button></a>
+            	</div>
+
+				<div class="col-md-3 card card-body bg-light card-section">
             		<h2 class="form-signing-heading">Placeholder</h2>
                 	<p id="">Do you expect me to come up with a witty rhyme on a placeholder?</p>
-                    <a href="quadracts"><button class="btn btn-primary btn-block button">Open</button></a>
+                    <a href="statistics"><button class="btn btn-primary btn-block button">Open</button></a>
             	</div>
 			</div>
         </div>

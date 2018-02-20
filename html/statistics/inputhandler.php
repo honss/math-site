@@ -14,7 +14,6 @@ $number = $number + 1;
 $sql = "UPDATE statistics SET count=" . $number . " WHERE type='" . $type . "'";
 $conn->query($sql);
 $sql = "UPDATE statistics SET date_used=CURRENT_TIMESTAMP WHERE type='" . $type . "'";
-echo $sql;
 $conn->query($sql);
 $conn->close();
 ?>
