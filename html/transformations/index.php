@@ -40,6 +40,40 @@
                                 </div>
                           <p id="dil_solution">Solution:</p>
                       <button onclick="dilation()" class="btn btn-primary btn-block button">Run</button>
+			  </div>
+			  <div class="col-md-3 card card-body bg-light card-section">
+                    <h2 class="form-signing-heading">Rotations</h2>
+                                <div class="input-group mb-4">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Point X:</span>
+                                  </div>
+                                  <input type="text" id="rot_inputpx">
+                                </div>
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Point Y:</span>
+                                  </div>
+                                  <input type="text" id="rot_inputpy">
+                                </div>
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Center X:</span>
+                                  </div>
+                                  <input type="text" id="rot_inputcx">
+								</div>
+								<div class="input-group mb-3">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Center Y:</span>
+                                  </div>
+                                  <input type="text" id="rot_inputcy">
+								</div>
+								<select id="rot_inputd" class="form-control">
+  									<option value="90">90 degrees</option>
+  									<option value="180">180 degrees</option>
+  									<option value="270">270 degrees</option>
+								</select>
+                          <p class="solution" id="rot_solution">Solution:</p>
+                      <button onclick="rotation()" class="btn btn-primary btn-block button">Run</button>
               </div>
            </div>
         </div>

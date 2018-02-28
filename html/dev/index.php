@@ -1,4 +1,5 @@
 <?php include "starter.html"; ?>
+<script src="post.js"></script>
 <?php include "../navbar.html"; ?>
 	<body>
 		<div class="container">
@@ -6,9 +7,11 @@
 			
 			<a href="nowhere.php">Placeholder</a>
 			<br>
-			<button onclick="increment()" type="button">Increment</button>
+			Action: <input type="text id="action">
+			Type: <input type="text id="value">
+			<button onclick="set_action()" type="button">Set</button>
 		</div>
-		<form action="../statistics/inputhandler.php" method="post">
+		<form id="form" action="../statistics/inputhandler.php" method="post">
 			<input type="text" name="type">
 			<button type="submit">Submit</button>
 		</form>
