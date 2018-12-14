@@ -1,9 +1,10 @@
 <?php include "starter.html"; ?>
 <meta name="description" content="Aidan's math calculator stuff, now with extra cheese.">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<!--179 and aa 6e 2775 b 3f3 2775 9419 -->
 <?php include "navbar.html"; ?>
 		<div class="container">
-			<h1 class="jumbotron banner-jumbo">Aidan's Math Index Stuff</h1>
+			<h1 class="jumbotron banner-jumbo">Aidan's Math Index Stuff - I say hi!</h1>
 			<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center index-header">
 				<h1 class="display-4">Index</h1>
 				<p class="lead">To be completely honest, I just got bored manually using the quadratic formula, so I built this so that nobody who had it would ever have to do their homework legitimately again!</p>
